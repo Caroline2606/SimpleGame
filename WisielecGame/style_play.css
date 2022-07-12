@@ -1,0 +1,25 @@
+body {
+    background-image: url("img/start.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+    background-position-x: 300px;
+    font-family: 'Inconsolata';
+}
+
+#img {
+    position: absolute;
+    bottom: 10px;
+    left: 670px;
+    width: 220px;
+    height: 220px;
+}
+
+#h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#sound {
+    visibility: hidden;
+}

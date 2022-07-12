@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style_category.css">
+    <title>Category</title>
+
+    <script>
+        $(document).ready(function(){
+            $("#znak").click(function() {
+                $("#opis").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="banner">
+        <h1 id="h1">Wybierz kategorię</h1>
+    </div>
+
+    <a href="country.html"><img id = "country" src="img/dyskietka1.png"></a>
+    <p id="stolice"><b>MIASTA</b></p>
+    <a href="film.html"><img id = "film" src="img/dyskietka2.png"></a>
+    <p id="tytuly"><b>FILMY</b></p>
+
+    <img id="dymek" src="img/dymek.png" >
+    <img id="znak" src="img/znak.png">
+
+    <div id="opis">
+        Zagraj w wisielca. Wyberz jedną kategorię: MIASTA, FILMY. Klikaj litery
+        na klawiaturze, aby odgadnąc hasło. Litery, które są w haśle podświetlą
+        się na kolor zielony, 
+        a błędnie wskazane litery na kolor czerwony.
+        UWAGA! Musisz zgadnąć hasło za nim pojawi się wisielec na szubienicy!
+    </div>
+</body>
+</html>

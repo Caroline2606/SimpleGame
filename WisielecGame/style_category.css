@@ -1,0 +1,79 @@
+body {
+    background-image: url("img/category_tlo.jpg");
+    background-size: cover;
+    font-family: 'Inconsolata';
+}
+
+#h1{
+    text-align: center;
+}
+
+#country {
+    position: absolute;
+    top: 180px;
+    left: 400px;
+    width: 150px;
+    height: 150px;
+}
+
+#stolice {
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    width: 150px;
+    height: 150px;
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+}
+
+#film {
+    position: absolute;
+    top: 185px;
+    right: 400px;
+    width: 150px;
+    height: 150px;
+}
+
+#tytuly {
+    position: absolute;
+    top: 320px;
+    right: 400px;
+    width: 150px;
+    height: 150px;
+    font-family: 'Inconsolata';
+    font-size: 20px;
+    font-weight: 10px;
+    text-align: center;
+}
+
+#dymek {
+    position: absolute;
+    bottom: 270px;
+    right: 380px;
+    height: 100px;
+    width: 200px;
+}
+
+#znak {
+    position: absolute;
+    right: 430px;
+    bottom: 270px;
+    width: 100px;
+    height: 100px;
+}
+
+#opis {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-image: url("img/papier.png");
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 230px;
+    text-align: justify;
+    padding: 25px;
+    display: none;
+}
